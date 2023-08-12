@@ -13,7 +13,7 @@ func TestCreateChannel(t *testing.T) {
 	//ch1 := make(chan int)         // 创建一个整型类型channel
 	//ch2 := make(chan interface{}) // 创建一个空接口类型channel
 
-	//type Equip struct{}
+	//type Equip programstructure{}
 	//ch3 := make(chan *Equip) // 创建一个Equip指针类型channel
 }
 

@@ -40,7 +40,7 @@ func TestPointerType(t *testing.T) {
 // TestGetStructFiled 获取struct成员变量的信息
 func TestGetStructFiled(t *testing.T) {
 	typeUser := reflect.TypeOf(User{})
-	// NumField returns a struct type's field count.
+	// NumField returns a programstructure type's field count.
 	// It panics if the type's Kind is not Struct.
 	// 返回结构体的字段数量，必须是Struct类型
 	fieldNum := typeUser.NumField()
